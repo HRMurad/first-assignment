@@ -46,6 +46,7 @@ body{
 .flowerTitle{
     width: 350px;
     margin: auto;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 10px;
     font-size: 34px;
     font-weight: 600;
@@ -182,4 +183,43 @@ body{
 .thirdIcon img{
     width: 50px;
     height: 50px;
+}
+.sellingSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0px 160px;
+    background-color: rgb(254,246,248);
+    height: 500px;
+}
+
+.sellingDetails{
+    text-align: center;
+}
+
+.sellingDetails .title{
+    font-size: 30px;
+    font-family:'Lato', sans-serif;
+    width: 470px;
+    line-height: 12px;
+}
+
+.sellingDetails .title span{
+    color: rgb(229,84,15);
+}
+.sellingDetails .paragraph{
+    width: 500px;
+}
+
+.sellingDetails .btn{
+    background-color: brown;
+    padding: 10px 22px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.sellingPicture img{
+    width: 300px;
 }
