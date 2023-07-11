@@ -213,13 +213,43 @@ body{
 }
 
 .sellingDetails .btn{
-    background-color: brown;
-    padding: 10px 22px;
+    background-color: rgb(229,84,115);
     color: white;
-    border-radius: 6px;
+    font-size: 10px;
+    padding: 10px 22px;
     border: none;
+    border-radius: 3px;
+    font-weight: 700;
 }
 
 .sellingPicture img{
     width: 300px;
+}
+
+.socialDescription{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.socialDescription h1{
+    font-size: 35px;
+    font-family:'Lato', sans-serif;
+    width: 470px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.socialDescription p{
+    width: 490px;
+    margin: auto;
+    font-weight: 400;
+}
+.socilaImg{
+    margin: 40px 180px;
+}
+.socilaImg img{
+    width: 180px;
+    height: 180px;
+    margin-right: 5px;
+    border-radius: 6px;
 }
