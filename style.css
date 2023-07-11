@@ -255,10 +255,8 @@ body{
 }
 
 .searchingSection{
-    background-image: url("/img/flower/rectangle 9.png");
+    background-image: url("../img/flower/rectangle.png");
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     text-align: center;
     padding:30px 0px;
     height: 160px;
