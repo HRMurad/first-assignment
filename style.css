@@ -342,7 +342,6 @@ body{
 }
 
 .outputBox{
-    /* margin-top: 60px; */
     padding-top: 120px;
     display: flex;
     justify-content: space-evenly;
