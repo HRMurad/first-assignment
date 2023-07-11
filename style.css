@@ -245,11 +245,53 @@ body{
     font-weight: 400;
 }
 .socilaImg{
-    margin: 40px 180px;
+    margin: 40px 198px;
 }
 .socilaImg img{
     width: 180px;
     height: 180px;
     margin-right: 5px;
     border-radius: 6px;
+}
+
+.searchingSection{
+    background-image: url("./img/flower/rectangle\ 9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding:30px 0px;
+    height: 160px;
+    margin: 60px 200px;
+    border-radius: 10px
+    
+}
+
+.searchingSection h1{
+    line-height: .1px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Lato', sans-serif;
+}
+
+.searchingSection p{
+    margin-bottom: 30px;
+}
+
+.searchForm input{
+    width: 350px;
+    height: 24px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 3px;
+}
+.searchForm button{
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgb(229,84,115);
+    padding: 6px 6px;
+    color: white;
+    border-radius: 4px;
 }
