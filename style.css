@@ -255,7 +255,7 @@ body{
 }
 
 .searchingSection{
-    background-image: url("../img/flower/rectangle.png");
+    background-image: url("./img/flower/rectangle.png");
     background-size: cover;
     text-align: center;
     padding:30px 0px;
@@ -292,4 +292,38 @@ body{
     padding: 6px 6px;
     color: white;
     border-radius: 4px;
+}
+
+.footerBody{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+
+.footerBody h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family:'Lato', sans-serif;
+}
+
+.span{
+    color: rgb(203,76,101);
+}
+
+.footerBody p{
+    width: 550px;
+    margin: auto;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.90);
+
+}
+
+.copyRight{
+    padding-top: 12px;
+    display: block;
+    width: 250px;
+    margin: auto;
+    font-size: 12px;
 }
